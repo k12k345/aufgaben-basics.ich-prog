@@ -7,9 +7,10 @@ func MinList(nums []int) int {
 		return 0
 	}
 	min:=nums[0]
-	for_, n:=range nums{
+	for_, n := range nums{
 		if n<min{
 		min=n
+		
 		}
 	}
 	return min
